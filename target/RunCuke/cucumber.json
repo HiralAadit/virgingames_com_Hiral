@@ -1,0 +1,166 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4068754800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should navigate to website page successfully",
+        "description": "",
+        "id": "check-functionality-on-home-page;user-should-navigate-to-website-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 661105700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99795800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112173600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on accept",
+            "match": {
+              "location": "MyStepdefs.iClickOnAccept()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48386800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should navigate to login page successfully",
+            "match": {
+              "location": "MyStepdefs.iShouldNavigateToLoginPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2122725600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Scenario: User should navigate to website page successfully",
+        "description": "",
+        "id": "check-functionality-on-home-page;scenario:-user-should-navigate-to-website-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 638457700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94971700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on accept",
+            "match": {
+              "location": "MyStepdefs.iClickOnAccept()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57203000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see the welcome message",
+            "match": {
+              "location": "MyStepdefs.iShouldSeeTheWelcomeMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25711700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should navigate to login page successfully",
+            "match": {
+              "location": "MyStepdefs.iShouldNavigateToLoginPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check functionality on home Page",
+    "description": "As user I want to click virgin games website",
+    "id": "check-functionality-on-home-page",
+    "keyword": "Feature",
+    "uri": "Home.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Home"
+      }
+    ]
+  }
+]
